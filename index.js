@@ -10,7 +10,7 @@ writing array of questions
 */
 
 const chalk = require('chalk');
-console.log(chalk.red("DRACARYS, Winter is coming let's play"));
+console.log(chalk.red(" Winter is coming let's play"));
 const GotQuiz = [{
   question:(chalk.cyan)
   ` who was the hand of the king before Ned stark?
@@ -90,7 +90,7 @@ function quiz(){
     play();
   }
   else{
-    console.log(chalk.red(" oops wrong!!! "));
+    console.log(chalk.red(" DRACARYS!!! "));
     console.log(chalk.red(" try again "));
     quiz();
   }
